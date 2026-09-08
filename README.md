@@ -3,4 +3,4 @@ The 2 files included are relevant to the paper "Sampling Smart: Rethinking Subsa
 
 (1) `subsampling_layouts.m` - Creates 4160 pixels x 4160 pixels .PNG files that serve as the subsampling layout masks (grid, wedges, rings, random boxes, spirals, strips).
 
-(2) `do_subsampling.m` - Performs subsampling using the layouts created in step (1) on a set of imaged samples and does some image preprocessing. Yields subsampling errors (defined in paper).
+(2) `do_subsampling.m` - Performs subsampling using the layouts created in step (1) on a set of imaged samples and does some image preprocessing. Yields subsampling errors (defined in paper). Before running the code here, the actual particle identification (via the other repository mentioned) was conducted to result in .csv files of the particles identified (locations and other statistics).
